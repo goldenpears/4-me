@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.locovna.a4me.utils.Utils;
+import com.locovna.a4me.view.AboutActivity;
+import com.locovna.a4me.view.GameActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -25,7 +29,8 @@ public class MainActivity extends Activity {
     hotseatButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, HotseatActivity.class);
+        Intent intent = new Intent(MainActivity.this, GameActivity.class);
+        intent.putExtra(Utils.EXTRA_IS_ONE_PLAYER, false);
         startActivity(intent);
       }
     });
@@ -33,7 +38,8 @@ public class MainActivity extends Activity {
     vsAiButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, AiActivity.class);
+        Intent intent = new Intent(MainActivity.this, GameActivity.class);
+        intent.putExtra(Utils.EXTRA_IS_ONE_PLAYER, true);
         startActivity(intent);
       }
     });

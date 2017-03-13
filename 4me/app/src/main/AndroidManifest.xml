@@ -16,11 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".HotseatActivity">
+        <activity android:name=".view.AboutActivity">
         </activity>
-        <activity android:name=".AiActivity">
-        </activity>
-        <activity android:name=".AboutActivity">
+        <activity android:name=".view.GameActivity">
         </activity>
     </application>
 
