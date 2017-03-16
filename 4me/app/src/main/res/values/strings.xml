@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">4me</string>
+    <string name="about_description">The two players then alternate turns dropping one of their discs at a time into an unfilled column, until the second player, with red discs, achieves four discs in a row, diagonally, and wins. If the game board fills before either player achieves four in a row, then the game is a draw.</string>
+    <string name="contact1">invented by game designers Howard Wexler, Ned Strongin</string>
+    <string name="contact2">implemented by huge programmer\'s community</string>
+    <string name="contact3">brought piece by piece 4u by us</string>
 </resources>
