@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
   public static final String TAG = MainActivity.class.getSimpleName();
 
   @BindView (R.id.hotseat_button) Button hotseatButton;
-  @BindView (R.id.vs_ai_button) Button vsAiButton;
+//  @BindView (R.id.vs_ai_button) Button vsAiButton;
   @BindView (R.id.about_button) Button aboutButton;
 
   @Override
@@ -35,14 +35,14 @@ public class MainActivity extends Activity {
       }
     });
 
-    vsAiButton.setOnClickListener(new View.OnClickListener() {
-      @Override
-      public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, GameActivity.class);
-        intent.putExtra(Utils.EXTRA_IS_ONE_PLAYER, true);
-        startActivity(intent);
-      }
-    });
+//    vsAiButton.setOnClickListener(new View.OnClickListener() {
+//      @Override
+//      public void onClick(View view) {
+//        Intent intent = new Intent(MainActivity.this, GameActivity.class);
+//        intent.putExtra(Utils.EXTRA_IS_ONE_PLAYER, true);
+//        startActivity(intent);
+//      }
+//    });
 
     aboutButton.setOnClickListener(new View.OnClickListener() {
       @Override

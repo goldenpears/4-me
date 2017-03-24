@@ -48,16 +48,17 @@
     <Button
         android:id="@+id/hotseat_button"
         style="@style/MainMenuButton"
+        android:layout_margin="82dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You vs Frienddddd"/>
+        android:text="Play with friend"/>
 
-    <Button
-        android:id="@+id/vs_ai_button"
-        style="@style/MainMenuButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="vs AI"/>
+    <!--<Button-->
+        <!--android:id="@+id/vs_ai_button"-->
+        <!--style="@style/MainMenuButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="vs AI"/>-->
 
     <Button
         android:id="@+id/about_button"
