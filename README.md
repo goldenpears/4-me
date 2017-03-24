@@ -6,7 +6,7 @@
 
 ### I want to play it!
 - `git clone https://github.com/locovna/4-me.git`
-- Import `4me` foder via Android Studio
+- Import `4me` folder via Android Studio
 - Run it on the emulator or your device in debug mode
 
 ### TODO
